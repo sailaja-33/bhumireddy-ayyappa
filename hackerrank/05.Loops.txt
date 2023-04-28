@@ -1,0 +1,21 @@
+05.The provided code stub reads and integer, n , from STDIN. For all non-negative integers i<n , print i**2 .
+ 
+code:
+if __name__ == '__main__':
+    n = int(input())
+    squares_list=[]
+for i in range(0,n):
+     squares_list.append(i**2)
+for i in squares_list:
+    print(i)
+    
+input:
+5
+
+output:
+0
+1
+4
+9
+16
+
